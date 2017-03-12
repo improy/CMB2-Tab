@@ -1,0 +1,39 @@
+/* CMB2 TABS Style */
+/* Read more at: https://www.proy.info/how-to-create-cmb2-tabs/ */
+.cmb2-tabs-box.ui-tabs .cmb2-upload-button.button,
+.cmb2-tabs-box.ui-tabs li, .cmb2-tabs-box.ui-tabs input, .cmb2-tabs-box.ui-tabs select, 
+.cmb2-tabs-box.ui-tabs textarea, .cmb2-tabs-box.ui-tabs button,
+.cmb2-tabs-box.ui-tabs .cmb-type-slider .cmb2-slider-value-display { color: #545c65; font-family: inherit; font-size: 13px;}
+.cmb2-tabs-box.ui-tabs .cmb2-metabox-description {font-family: inherit; font-size: 13px;}
+.cmb2-tabs-box.ui-tabs .inside:after,.ui-tabs .ui-tabs-nav:after,.ui-tabs:after{clear:both}
+.cmb2-tabs-box.ui-tabs .inside:after,.cmb2-tabs-box.ui-tabs .ui-tabs-nav:after,.cmb2-tabs-box.ui-tabs-vertical .cmb2-wrap .cmb-row:after,.cmb2-tabs-box.ui-tabs:after{content:' ';display:block}
+div.cmb-type-tabs{padding:0!important;margin:-10px -12px -12px!important;font-family: Open Sans;font-size: 13px;}
+.cmb2-tabs-box.ui-tabs{border:0;border-radius:0;position:relative;background-color:#f5f5f5;padding:0}
+.cmb2-options-page div.cmb-type-tabs{padding:0!important;margin:0!important}
+.cmb2-tabs-box.cmb2-options-page .ui-tabs{margin:0 -10px;border:1px solid #e5e5e5;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.04);box-shadow:0 1px 1px rgba(0,0,0,.04)}
+.cmb2-tabs-box.ui-tabs h2.hndle{background:#fff}
+.cmb2-tabs-box.ui-tabs .ui-tabs-nav li{list-style:none;float:left;position:relative;top:0;margin:1px .2em 0 0;border-bottom-width:0;padding:0;white-space:nowrap}
+.cmb2-tabs-box.ui-tabs .ui-tabs-nav li a{display:block;text-decoration:none;overflow-wrap:break-word;font-size:14px;line-height:18px;padding:15px!important;margin:0;color:#72777c;border-bottom:1px solid #e2dddb;border-right:0}
+.cmb2-tabs-box.ui-tabs .ui-tabs-nav li a:focus{-webkit-box-shadow:none;box-shadow:none}
+.cmb2-tabs-box.ui-tabs.ui-tabs-vertical .ui-tabs-nav .ui-tabs-anchor{font-size: 13px; float:left;text-decoration:none;width:100%;padding:10px 0 10px 10px !important}
+.cmb2-tabs-box.ui-tabs.ui-tabs-horizontal .ui-tabs-nav .ui-tabs-anchor{font-size: 13px; float:left;padding:.5em 1em;text-decoration:none}
+.cmb2-tabs-box.ui-tabs .ui-tabs-nav li.ui-tabs-active{margin-bottom:-1px;padding-bottom:1px;border-bottom-width:1px}
+.cmb2-tabs-box.ui-tabs .ui-tabs-nav li.ui-tabs-active a{color: #222;z-index:50!important;background-color:#FFF;border:1px solid #E1E1E1;border-bottom-color:#FFF;border-top:2px solid #2EA2CC;margin:0 0 -1px}
+.cmb2-tabs-box.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,.cmb2-tabs-box.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,.cmb2-tabs-box.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor{cursor:default}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{cursor:pointer}
+.cmb2-tabs-box.ui-tabs .ui-tabs-panel{display:block;border:0;border-top:1px solid #E1E1E1;margin:0;padding:10px 15px 0;background:#fff}
+.cmb2-tabs-box.ui-tabs .ui-tabs-panel h3{border-bottom:1px solid #e9e9e9}
+.cmb2-tabs-box.ui-tabs .inside{margin:0!important;padding:0}
+.ui-tabs-vertical{padding-top:0}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-nav{background:transparent;border:0;border-radius:0;float:left;margin:0;padding:0;position:relative;width:165px;z-index:10}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-nav li{clear:left;width:100%;border:0;border-bottom-width:1px!important;border-right-width:0!important;border-radius:0;margin:0;background:transparent}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active{padding-bottom:0;border:0;border-radius:0}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a{z-index:50!important;background-color:#FFF;border:0;border-left:3px solid #2EA2CC;border-bottom:1px solid #e2dddb;margin:0 0 0 1px;width:100%;padding:10px 0 10px 10px !important}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel{min-height:200px;border:none;border-left:1px solid #e2dddb;float:left;width:calc(100% - 165px)}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel .cmb-row{margin: 0; border-bottom: 1px solid #f2f2f2; padding-bottom: 10px; padding-top: 10px; }
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel .cmb-row:not([class*=" col-md-"]){float:left; width: 100%;}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel .cmb-row:after{clear:both;}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel .cmb-row .cmb-th{float:left;width:32%;line-height:16px;margin-right:1%; padding-right: 0;}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel .cmb-row .cmb-th label{ padding: 0; color: #444444; font-family: Open Sans; font-size: 13px; font-weight: 500;}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel .cmb-row .cmb-td{float:left;width:65%; min-height:50px;}
+.cmb2-tabs-box.ui-tabs-vertical .ui-tabs-panel .cmb-row .cmb-td span.after_field{display:inline-block;width:90px;font-size:13px;padding:0 5px}
